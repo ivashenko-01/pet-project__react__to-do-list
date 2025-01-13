@@ -1,0 +1,94 @@
+/* ---------- Автор Framework Bear: IT BEAR ----------
+
+        Основатель: Евгений Иващенко
+        Контакты для связи:
+            - vkontakte: https://vk.com/id92506149
+            - telegram: @eugene2022987
+            - youtube: https://www.youtube.com/@itbear5698/featured
+            - github: https://github.com/ivashenko-01
+
+        Информация:
+            - данная чистая сборка находится в разработке
+            - суть чистой сборки: 
+
+        Версия Чистой сборки: v1.0.0
+
+        Контакты для поддержки автора:
+            - boosty: https://boosty.to/it-bear/donate
+            - vkontakte: https://vk.com/donut/it_bear_russia
+            - tinkoff: https://www.tinkoff.ru/cf/AOJg3fN3iOG
+
+   ------------------- Framework Bear ------------------- */
+
+/* ================================================================++==================== */
+/* -- =============== Распределение header, main, footer по местами =============== -- */
+html,
+body {
+    height: 100%;
+}
+
+.b-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-main {
+    flex-grow: 1;
+    min-height: 80vh;
+    margin-bottom: 5vh;
+}
+/* ==================================================================================== */
+
+/* ==================================================================================== */
+/* -- ======================== Быстрое применение стилей ======================== -- */
+.b-container-1440 {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.b-container-1200 {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.b-flex {
+    display: flex;
+}
+
+.b-row {
+    flex-direction: row;
+}
+
+.b-column {
+    flex-direction: column;
+}
+
+.b-wrap {
+    flex-wrap: wrap;
+}
+
+.b-items-center {
+    align-items: center;
+}
+
+.b-space-between {
+    justify-content: space-between;
+}
+
+.b-fixed {
+    position: fixed;
+}
+
+.b-inner-section {
+    padding: 100px 0;
+}
+
+.b-text-uppercase {
+    text-transform: uppercase;
+}
+/* ==================================================================================== */
