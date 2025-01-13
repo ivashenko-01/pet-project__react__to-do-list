@@ -20,3 +20,8 @@ export const defaultHandleForm = async (event: FormEvent<HTMLFormElement>) => {
 
     return data;
 };
+
+// --- Универсальная функция, генерация уникального ID
+export const generateUniqueId = () => {
+    return Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
+};
