@@ -94,30 +94,8 @@ export function Page__Example() {
         }
     };
 
-    useEffect(() => {
-        if (list_task_new.length === 0) {
-            const task = {
-                id: generateUniqueId(),
-                title: 'Пример задачи 1',
-                completed: false,
-            };
-            localStorage.setItem('task_new', JSON.stringify([task]));
-        }
-        if (list_task_completed.length === 0) {
-            const task = {
-                id: generateUniqueId(),
-                title: 'Пример задачи 2',
-                completed: true,
-            };
-            localStorage.setItem('task_completed', JSON.stringify([task]));
-        }
-    }, [list_task_new, list_task_completed]);
-
     return (
         <>
-            <div>
-                В качестве демонстрации, автоматически создается задача в одном из статусов (если список полностью пуст)
-            </div>
             <form onSubmit={handleForm}>
                 <input id={'title'} name={'title'} type="text" placeholder="Введите название задачи" />
                 <button>Добавить задачу</button>
